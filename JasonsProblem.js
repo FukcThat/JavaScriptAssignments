@@ -16,3 +16,4 @@ function multiplyArguments(){
 console.log("Takes no input, returns 0:" + multiplyArguments())
 console.log("Takes 5 as input, returns 5:" + multiplyArguments(5))
 console.log("Takes 5,10,2 as input, returns 100:" + multiplyArguments(5,10,2))
+
