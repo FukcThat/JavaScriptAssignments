@@ -17,11 +17,11 @@ function multiply (number) {
 
 // 3. //
 
-function capitalize (str) {
-    if (typeof string !== "string" || string.length === 0) {
-        return str;
-    }
-    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+function capitalize (string) { 
+    if (typeof string !== typeof "" || string.length === 0) {
+        return string;
+   }
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
 
     console.log(capitalize("hello"));
@@ -32,10 +32,10 @@ function capitalize (str) {
 // 4. //
 
 function lastLetter (str) {
-    if (typeof string !== "string" || string.length === 0) {
-        return "";
+    if (typeof str !== typeof "" || str.length === 0) {
+        return str;
     }   
     return str.charAt(str.length - 1);
 }
 
-console.log(lastLetter("Hello"));
+    console.log(lastLetter("Hello"));
