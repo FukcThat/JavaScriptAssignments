@@ -6,9 +6,8 @@ let c = a+b;
 
 console.log(c);
 
+
 // 2. // 
-
-
 
 function add() {
 
@@ -22,7 +21,6 @@ function add() {
 add();
 
 
-
 // 3. //
 
 function helloWorld() {
@@ -30,6 +28,7 @@ function helloWorld() {
   }
 
 helloWorld();
+
 
 // 4. //
 
@@ -39,5 +38,5 @@ const message = str1.concat(str2);
 
 console.log(message);
 
-// 5. //
+
 
